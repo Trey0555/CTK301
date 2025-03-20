@@ -1,18 +1,75 @@
-/* Anything between these two tags will be ignored by the browser */
-
-
-a {
-    color: red;
-background-color: rgb(163, 249, 163);
-
+nav ul {
+    list-style-type: circle; /* none, disc, circle, square */
+    margin:0;
+    padding: 0;
+  
+  
 }
 
-.specialp {
+nav li {
+    border: 1px solid #000000;
+    
+    margin: 10px;
+    width: 150px;
+    background-color: purple;
+    color: white;
+ }
+ nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+  }
+  nav li {
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 0;
+    background-color: #cc0000;
+    color: #ffffff;
+    
+  }
+  
+  nav li a {
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #cc0000;
+    display: block;
+  }
+  
+  nav li a:hover {
+    background-color: #660000;
+  }
+  nav li a {
+    color: #ffffff;
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #cc0000;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
 
-    color:blueviolet
-}
+.bordertop {
+    border-top: 1px solid #ff0000;
+  }
 
-#specialid {
-    color:rgb(240, 205, 140);
-background-color:rgb(145, 145, 236) 
+  .borderbottom {
+  border-bottom: 1px solid #00ff00;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
+.borderright {
+    border-right: 1px solid #0000ff;
+  }
+  
+  .borderleft {
+    border-left: 1px solid #ff00ff;
+  }
+  
+  .rainbowborder {
+    border-top: 1px solid #ff0000;
+    border-bottom: 2px solid #00ff00;
+    border-right: 3px solid #0000ff;
+    border-left: 4px solid #ff00ff;
+  }    
