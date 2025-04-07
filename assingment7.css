@@ -1,0 +1,275 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+}
+
+.box {
+  border: 1px solid blue;
+}
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }  
+  header {
+    grid-column: span 12;
+  }
+  
+  nav ul {
+    list-style-type: circle; /* none, disc, circle, square */
+    margin:0;
+    padding: 0;
+  }
+  
+  nav li {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    border: 1px solid #000000;
+    padding: 50px;
+    margin: 10px;
+    width: 150px;
+    background-color: #404dfe;
+    color: #ffffff;
+  }
+  
+  nav li a {
+    color: #ffffff;
+  }
+
+  nav li {
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 0;
+    background-color: #5f54ff;
+    color: #ffffff;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #3936ff;
+    display: block;
+  }
+  
+  nav li a:hover {
+    background-color: #4458f6;
+  }
+
+  nav li a {
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #4469ef);
+  
+  }
+  
+  nav li a:hover {
+    background-image: linear-gradient(to top, #395eff, #3e58ff, #4f4ffe, #624dff, #3c4cf9);
+  }   
+
+  nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #456def;
+    background-image: linear-gradient(to bottom, #3e4bff, #4d62ff, #3f65ff, #4277fb, #f50f0f);
+  }
+  
+  .floatimg {
+    float: right;
+    padding-right: 20px;
+    width: 200px
+   }  
+  
+   body{
+    background-color: white;
+    background-color: #95959a;
+    background-image: url(a62.png);
+    background-position: top left;
+    }
+
+    .imgbox{
+      border: 2px solid #000000;
+      padding: 10px 10px 10px 10px;
+      margin: 20px 20px 20px 20px;
+      background-color: #000000;
+    }
+   
+  nav {
+    grid-column: span 3;
+  }
+  
+  main {
+    grid-column: span 9;
+  }
+  
+  footer {
+    grid-column: span 12;
+  }
+  #wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid #2b00ff;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 75px;
+  }
+  p {
+    color: #000000!important;
+  }
+  
+  p {
+    color: #00ffff;
+  }     
+
+  .spanstyle{
+    color: red
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #ffffff;
+  }
+
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:active {
+    color: #3f63ff;
+  }
+  
+  a:hover {
+    color: #2a18eb;
+    
+  }        
+
+  #specialid {
+    background-color: #4c4cff;
+    color: #7fbbff;
+    padding: 40px 40px 40px 40px
+  }
+
+  .customtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+    font-size: 15px;
+    text-align: left
+  
+}
+
+.bordertop {
+    border-top: 1px solid #000000;
+  }
+  
+  .borderbottom {
+    border-bottom: 1px solid #00ff00;
+  }
+  
+  .borderright {
+    border-right: 1px solid #0000ff;
+  }
+  
+  .borderleft {
+    border-left: 1px solid #ff00ff;
+  }
+  
+  .rainbowborder {
+    border-top: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 3px solid #000000;
+    border-left: 4px solid #000000;
+  }    
+
+.imgbox{
+    border: 2px solid #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: #000000;
+}
+
+.specialp {
+
+    color: #ffffff;
+    background-color: rgb(255, 0, 0)
+}
+
+p {
+    color: #5258ff;
+    text-decoration: none;
+  }
+
+  p:link {
+    color: #4130ff;
+  }
+
+  p:visited {
+    color: #4423ff;
+  }
+  
+  p:active {
+    color: #00ffff;
+  }
+  
+  p:hover {
+    color: #1755ff;
+    
+  }        
+
+
+
+footer {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+}
+footer img {
+  width: 200px;
+}
