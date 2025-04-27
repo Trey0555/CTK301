@@ -18,17 +18,26 @@ body {
 
   header {
   grid-column:span 12;
-  background-color: #E10000;
+  background-color: #ff2525;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-transform: uppercase;
   padding-left: 24px;
+  border-radius: 10px;
+  border:10px solid black; 
+  box-shadow: -10px -20px 0px #de2222; /* x, y, blur, color */ 
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 }
-
+nav li a:hover {
+  background-color: #ff97786d;
+  width: 100px;
+  color: rgb(35, 21, 238);
+}
   #mainimg{
     grid-column: span 8;
     width: 100;
     margin-top:24px;
+    border-radius: 24px;
   }
 
   nav ul{
@@ -44,12 +53,16 @@ body {
   }
 
   nav li{
-    background-color: #E10000;
+   
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #E10000;
     color: white;
     text-transform: uppercase;
     padding-left: 24px;
     margin-bottom: 24px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+  
   }
 
   nav li a {
@@ -60,6 +73,7 @@ body {
     font-weight: bold;
     padding: 24px;
     display: block;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
   }
   
 
@@ -81,7 +95,16 @@ section img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
    }
-
+   .circle {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid green;
+    background-color: red;
+    color: white;
+    border-radius: 500px;
+    text-align: center;
+  }
 footer{
   grid-column: span 12 ;
   background-color: #E10000;
@@ -93,6 +116,7 @@ footer{
   text-align: right;
   font-weight: bold;
   padding-right: 24px;
+ 
 }
 
 
@@ -103,4 +127,27 @@ footer{
 .dummycolumn {
   background-color: rgba(255,0,0,.25);
   grid-column: span 1;
+}
+
+
+
+
+
+.circle {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
 }
