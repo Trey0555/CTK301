@@ -1,5 +1,6 @@
 body {
   background-color: #999999;
+  font-family: "kigelia-lgc", sans-serif;
 }
 
 #wrapper {
@@ -19,7 +20,7 @@ body {
   header {
   grid-column:span 12;
   background-color: #ff2525;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Farro", sans-serif;
   color: white;
   text-transform: uppercase;
   padding-left: 24px;
@@ -54,7 +55,7 @@ nav li a:hover {
 
   nav li{
    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "kigelia-lgc", sans-serif;
     background-color: #E10000;
     color: white;
     text-transform: uppercase;
@@ -78,7 +79,7 @@ nav li a:hover {
   
 
    section h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "kigelia-lgc", sans-serif;
     text-transform: uppercase;
     border-bottom:5px solid black;
     font-size:32px;
@@ -108,7 +109,7 @@ section img {
 footer{
   grid-column: span 12 ;
   background-color: #E10000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "kigelia-lgc", sans-serif;
   color: white;
   text-transform: uppercase;
   padding-left: 24px;
@@ -117,6 +118,18 @@ footer{
   font-weight: bold;
   padding-right: 24px;
  
+}
+
+footer a{
+   color: grey;
+   font-size: 100px; 
+   transition: all 1s;
+}
+
+footer a:hover{
+color:white;
+font-size:110px;
+
 }
 
 
