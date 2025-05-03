@@ -1,151 +1,106 @@
 body {
-    background-color: #4b4b56;
-    font-family: "kigelia-lgc", sans-serif;
-  }
-  
-  #wrapper {
-    margin: 24px auto;
-    width: 1200px;
-    border: 1px solid rgb(255, 0, 0);
-    padding: 24px;
-    background-color: #000000;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 24px;
-  }
-  
-  
-  
-  
-    header {
-    grid-column:span 12;
-    background-color: #000000;
-    font-family: "Farro", sans-serif;
-    color: white;
-    text-transform: uppercase;
-    padding-left: 24px;
-    border-radius: 10px;
-    border:10px solid rgb(250, 250, 250); 
-    
-  }
-  nav li a:hover {
-    background-color: #ff97786d;
-    width: 100px;
-    color: rgb(255, 255, 255);
-  }
-    #mainimg{
-      grid-column: span 8;
-      width: 100;
-      margin-top:24px;
-      border-radius: 24px;
-    }
-  
-    nav ul{
-      list-style:none;
-      padding:0;
-      margin:0;
-    }
-    
-    
-    nav{
-      grid-column: span 4;
-      margin-top:24px;
-    }
-  
-    nav li{
-     
-      font-family: "kigelia-lgc", sans-serif;
-      background-color: #191822;
-      color: white;
-      text-transform: uppercase;
-      padding-left: 24px;
-      margin-bottom: 24px;
-      border-top-left-radius: 20px;
-      border-bottom-right-radius: 10px;
-    
-    }
-  
-    nav li a {
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 32px;
-      font-weight: bold;
-      padding: 24px;
-      display: block;
-      transition: background-color 1.0s, width 2.0s, color 2.0s;
-    }
-    
-  
-     section h2{
-      font-family: "kigelia-lgc", sans-serif;
-      text-transform: uppercase;
-      border-bottom:5px solid black;
-      font-size:32px;
-     }
-    
-  section img {
+  background-color: hsl(0, 55%, 58%);
+}
+
+body {
+  background-color: #e96666;
+  font-family: "kigelia-lgc", sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #322e8663;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+
+
+
+  header {
+  grid-column:span 12;
+  background-color: #ff2525;
+  font-family: "Farro", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 24px;
+  border-radius: 10px;
+  border:10px solid black; 
+  box-shadow: -10px -20px 0px #de2222; /* x, y, blur, color */ 
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+nav li a:hover {
+  background-color: #ff97786d;
+  width: 100px;
+  color: rgb(35, 21, 238);
+}
+  #mainimg{
+    grid-column: span 8;
     width: 100;
+    margin-top:24px;
+    border-radius: 24px;
+  }
+
+  nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
   }
   
   
-    main {
-      grid-column: span 12;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 24px;
-     }
-     .circle {
-      padding: 10px;
-      width: 250px;
-      height: 250px;
-      border: 3px solid green;
-      background-color: red;
-      color: white;
-      border-radius: 500px;
-      text-align: center;
-    }
-  footer{
-    grid-column: span 12 ;
-    background-color: #E10000;
+  nav{
+    grid-column: span 4;
+    margin-top:24px;
+  }
+
+  nav li{
+   
     font-family: "kigelia-lgc", sans-serif;
+    background-color: #E10000;
     color: white;
     text-transform: uppercase;
     padding-left: 24px;
-    font-size:32px;
-    text-align: right;
+    margin-bottom: 24px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+  
+  }
+
+  nav li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
     font-weight: bold;
-    padding-right: 24px;
-   
+    padding: 24px;
+    display: block;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
   }
   
-  footer a{
-     color: grey;
-     font-size: 100px; 
-     transition: all 1s;
-  }
+
+   section h2{
+    font-family: "kigelia-lgc", sans-serif;
+    text-transform: uppercase;
+    border-bottom:5px solid black;
+    font-size:32px;
+   }
   
-  footer a:hover{
-  color:white;
-  font-size:110px;
-  
-  }
-  
-  
-  
-  
-  
-  /* style for dummy columns, delete and replace with your own CSS */
-  .dummycolumn {
-    background-color: rgba(255,0,0,.25);
-    grid-column: span 1;
-  }
-  
-  
-  
-  
-  
-  .circle {
+section img {
+  width: 100;
+}
+
+
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+   }
+   .circle {
     padding: 10px;
     width: 250px;
     height: 250px;
@@ -153,13 +108,63 @@ body {
     background-color: red;
     color: white;
     border-radius: 500px;
+    text-align: center;
   }
-  
-  .dropshadowbox {
-    padding: 10px;
-    margin: 20px;
-    width: 250px;
-    border: 1px solid #999;
-    background-color: #ccc;
-    box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
-  }
+footer{
+  grid-column: span 12 ;
+  background-color: #E10000;
+  font-family: "kigelia-lgc", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 24px;
+  font-size:32px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 24px;
+ 
+}
+
+footer a{
+   color: grey;
+   font-size: 100px; 
+   transition: all 1s;
+}
+
+footer a:hover{
+color:white;
+font-size:110px;
+
+}
+
+
+
+
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+
+
+
+
+.circle {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
