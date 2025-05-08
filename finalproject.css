@@ -12,7 +12,7 @@ body {
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
-  background-color: #322e8663;
+  background-color: #00000063;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -30,13 +30,12 @@ body {
   padding-left: 24px;
   border-radius: 10px;
   border:10px solid black; 
-  box-shadow: -10px -20px 0px #de2222; /* x, y, blur, color */ 
-  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+
 }
 nav li a:hover {
   background-color: #ff97786d;
   width: 100px;
-  color: rgb(35, 21, 238);
+  color: rgb(31, 246, 235);
 }
   #mainimg{
     grid-column: span 8;
@@ -104,15 +103,15 @@ section img {
     padding: 10px;
     width: 250px;
     height: 250px;
-    border: 3px solid green;
-    background-color: red;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 500px;
     text-align: center;
   }
 footer{
   grid-column: span 12 ;
-  background-color: #E10000;
+  background-color: #000000;
   font-family: "kigelia-lgc", sans-serif;
   color: white;
   text-transform: uppercase;
@@ -154,17 +153,60 @@ font-size:110px;
   padding: 10px;
   width: 250px;
   height: 250px;
-  border: 3px solid green;
-  background-color: red;
+  border: 3px solid rgb(209, 37, 37);
+  background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 500px;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-.dropshadowbox {
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.artwork {
+  margin-bottom: 40px;
+}
+
+.artwork img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
   padding: 10px;
-  margin: 20px;
-  width: 250px;
-  border: 1px solid #999;
-  background-color: #ccc;
-  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
 }
