@@ -1,0 +1,57 @@
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+text-align:right;
+    }
+
+.fontcombined {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height:64px;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+main {
+    background-color: #0000ff;
+}       
+
+.boxmodel {
+    border: 2px solid #0000ff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    text-align:center;
+}
+
+.zeroout {
+    margin: 0;
+    padding: 0;
+}
+
+.pwidth {
+    width: 100px;
+}
+
+h1{
+    font-weight:normal;
+    font-size:20px;
+    letter-spacing:20px
+
+}
+
+.imgbox {
+    border: 2px solid #ff0000;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: #0000ff;
+}
+
+body {
+    background-color: #ef7c7c;
+    background-image: url(Posters.png);
+    background-position: top left;
+}      
